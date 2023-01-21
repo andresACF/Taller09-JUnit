@@ -17,6 +17,11 @@ public class Celular {
         this.numeroTelefono = numeroTelefono;
     }
     
+    public Celular(String prefijo) {
+        this.prefijo = prefijo;
+       
+    }
+    
     public void verificarTelefono(){
         // Verificacón de telefono
     }
